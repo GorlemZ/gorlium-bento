@@ -1,6 +1,6 @@
 import { Box, GorliumImage, Header, Stack } from "@gorliumbento/design-system";
 import terrario2 from "../assets/Terrario2.png";
-import logo from "../assets/logo.png";
+import logo from "../assets/croppedLogo.png";
 
 function Homepage() {
   return (
@@ -21,8 +21,8 @@ function Homepage() {
       ></Header>
       <Stack space={16} align={"center"}>
         <Box>
-          <GorliumImage height={"80vh"} path={terrario2} opacity={0.75}>
-            <GorliumImage height={"40vh"} path={logo} />
+          <GorliumImage height={"80vh"} path={terrario2} opacity={0.85}>
+            <GorliumImage height={"22vh"} path={logo} />
           </GorliumImage>
         </Box>
       </Stack>

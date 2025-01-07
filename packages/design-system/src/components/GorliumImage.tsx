@@ -19,8 +19,9 @@ function GorliumImage({ path, height, opacity, children }: GorliumImageProps) {
         <div
           style={{
             position: "absolute",
-            top: "70%",
-            left: "0%",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
           }}
         >
           {children}
