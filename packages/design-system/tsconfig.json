@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "jsx": "react-jsx",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "src/**/*",
+        "jsxShim.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

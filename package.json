@@ -1,0 +1,17 @@
+{
+  "name": "gorliumbento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "turbo run start",
+    "build": "turbo run build"
+  },
+  "keywords": [],
+  "author": "",
+  "packageManager": "pnpm@8.15.4",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^2.3.3"
+  }
+}
