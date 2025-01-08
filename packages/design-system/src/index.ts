@@ -1,6 +1,7 @@
 // Export the Bento components you want to use in your app
+import "./theme.scss";
 import "@buildo/bento-design-system/index.css";
-import "@buildo/bento-design-system/defaultTheme.css";
+
 export * from "@buildo/bento-design-system";
 
 import Header from "./components/Header";
@@ -8,7 +9,6 @@ export { Header };
 
 import GorliumImage from "./components/GorliumImage";
 export { GorliumImage };
-
 // // Export any other custom component
 // export * from "./components/MyCustomComponent/MyCustomComponent";
 
