@@ -10,7 +10,7 @@ interface GorliumImageProps {
 function GorliumImage({ path, height, opacity, children }: GorliumImageProps) {
   if (!height) height = "auto";
   return (
-    <Box padding={16} style={{ position: "relative" }}>
+    <Box padding={0} style={{ position: "relative" }}>
       <img
         src={path}
         style={{ height: height || "auto", width: "auto", opacity: opacity }}

@@ -12,6 +12,9 @@ export { GorliumImage };
 // // Export any other custom component
 // export * from "./components/MyCustomComponent/MyCustomComponent";
 
+import Banner from "./components/Banner";
+export { Banner };
+
 // You can use the createBentoProvider facility to create a BentoProvider with
 // your custom config, theme and sprinkles (see the section about Customization to learn about these)
 // export const BentoProvider = createBentoProvider();

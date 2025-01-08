@@ -2,6 +2,8 @@ import {
   BentoProvider,
   defaultMessages,
   Header,
+  Banner,
+  Title,
 } from "@gorliumbento/design-system";
 import Homepage from "./pages/Homepage";
 
@@ -19,12 +21,15 @@ function App() {
       >
         <Header
           list={[
-            ["Gorlium", "t"],
-            ["item 1", "t"],
-            ["item 1", "t"],
+            ["HOME", ""],
+            ["SOME LORE", "t"],
+            ["SHOP", "t"],
           ]}
         />
         <Homepage />
+        <Banner>
+          <Title size={"small"}>| WELCOME TO THE GORLIUM |</Title>
+        </Banner>
       </div>
     </BentoProvider>
   );

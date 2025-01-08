@@ -10,26 +10,26 @@ $root: (
     ),
 
     boxShadow: (
-      outlineInteractivePrimaryEnabled: #fefae0,
-      outlineInteractivePrimaryHover: #fefae0,
+      outlineInteractivePrimaryEnabled: var(--bento-brandColor-brandSecondary),
+      outlineInteractivePrimaryHover: var(--bento-brandColor-brandSecondary),
     ),
     radius-16: 0px,
     backgroundColor: (
-      primary: #111111,
+      primary: black,
       backgroundInteractive: #606c38,
-      backgroundInteractiveOverlay: #fefae0,
-      backgroundDarkScrim: #111111,
-      backgroundInformative: #111111,
+      backgroundInteractiveOverlay: var(--bento-brandColor-brandSecondary),
+      backgroundDarkScrim: black,
+      backgroundInformative: black,
     ),
     foregroundColor: (
-      foregroundInteractive: #111111,
+      foregroundInteractive: black,
     ),
     fontFamily: (
       default: "Consolas, monospace",
     ),
     textColor: (
-      primary: #fefae0,
-      textInteractive: #fefae0,
+      textPrimary: var(--bento-brandColor-brandSecondary),
+      textInteractive: var(--bento-brandColor-brandSecondary),
     ),
     lineHeight: (
       titleLarge: 36px,
@@ -43,17 +43,23 @@ $root: (
     // ),
     interactiveForegroundColor:
       (
-        primaryTransparentEnabledForeground: #fefae0,
+        primaryTransparentEnabledForeground:
+          var(--bento-brandColor-brandSecondary),
         // linkEnabled: rgb(255, 255, 255),
-        primaryTransparentHoverForeground: #fefae0,
+        primaryTransparentHoverForeground:
+          var(--bento-brandColor-brandSecondary),
+        primaryTransparentFocusForeground:
+          var(--bento-brandColor-brandSecondary),
       ),
     interactiveBackgroundColor: (
       // primarySolidEnabledBackground: rgb(255, 255, 255),
       // primarySolidHoverBackground: rgb(255, 255, 255),
       primaryTransparentHoverBackground: rgba(96, 108, 56, 0.4),
+      primaryTransparentFocusBackground: rgba(96, 108, 56, 0.4),
     ),
   ),
 );
+
 //--bento-backgroundColor-backgroundInformative
 
 @mixin export-css-variables($map, $prefix: "") {
