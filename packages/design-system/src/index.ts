@@ -15,6 +15,9 @@ export { GorliumImage };
 import Banner from "./components/Banner";
 export { Banner };
 
+import PostSection from "./components/PostSection";
+export { PostSection };
+
 // You can use the createBentoProvider facility to create a BentoProvider with
 // your custom config, theme and sprinkles (see the section about Customization to learn about these)
 // export const BentoProvider = createBentoProvider();

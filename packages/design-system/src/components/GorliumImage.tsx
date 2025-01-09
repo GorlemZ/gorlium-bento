@@ -10,10 +10,26 @@ interface GorliumImageProps {
 function GorliumImage({ path, height, opacity, children }: GorliumImageProps) {
   if (!height) height = "auto";
   return (
-    <Box padding={0} style={{ position: "relative" }}>
+    <Box
+      padding={0}
+      style={{
+        position: "relative",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        width: "100%",
+        height: "100%",
+      }}
+    >
       <img
         src={path}
-        style={{ height: height || "auto", width: "auto", opacity: opacity }}
+        style={{
+          width: "100%",
+          opacity: opacity,
+          height: height,
+          objectFit: "contain",
+          flex: height === "auto" ? 1 : 0,
+        }}
       />
       {children && (
         <div
@@ -32,3 +48,26 @@ function GorliumImage({ path, height, opacity, children }: GorliumImageProps) {
 }
 
 export default GorliumImage;
+
+{
+  /* <div
+style={{
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  width: "100%",
+  height: "100%",
+}}
+>
+<img
+  src={path}
+  style={{
+    width: "100%",
+    opacity: opacity,
+    height: height,
+    objectFit: "contain",
+    flex: height === "auto" ? 1 : 0,
+  }}
+/>
+</div> */
+}
