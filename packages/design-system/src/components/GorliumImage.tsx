@@ -17,16 +17,13 @@ function GorliumImage({ path, height, opacity, children }: GorliumImageProps) {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        width: "100%",
-        height: "100%",
       }}
     >
       <img
         src={path}
         style={{
-          width: "100%",
-          opacity: opacity,
           height: height,
+          opacity: opacity,
           objectFit: "contain",
           flex: height === "auto" ? 1 : 0,
         }}
@@ -35,9 +32,7 @@ function GorliumImage({ path, height, opacity, children }: GorliumImageProps) {
         <div
           style={{
             position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
+            height: "content",
           }}
         >
           {children}
@@ -48,26 +43,3 @@ function GorliumImage({ path, height, opacity, children }: GorliumImageProps) {
 }
 
 export default GorliumImage;
-
-{
-  /* <div
-style={{
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  width: "100%",
-  height: "100%",
-}}
->
-<img
-  src={path}
-  style={{
-    width: "100%",
-    opacity: opacity,
-    height: height,
-    objectFit: "contain",
-    flex: height === "auto" ? 1 : 0,
-  }}
-/>
-</div> */
-}
