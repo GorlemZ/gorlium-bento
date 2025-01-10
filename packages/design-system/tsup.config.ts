@@ -1,10 +1,11 @@
 import { defineConfig } from "tsup";
 import { vanillaExtractPlugin } from "@vanilla-extract/esbuild-plugin";
+import { sassPlugin } from "esbuild-sass-plugin";
 
 export default defineConfig({
   entry: ["src/index.ts"],
   outDir: "dist",
-  esbuildPlugins: [vanillaExtractPlugin()],
+  esbuildPlugins: [vanillaExtractPlugin(), sassPlugin()],
   dts: true,
   // Include here the css files coming from external dependencies, which we
   // recommend to bundle in your design system package.
