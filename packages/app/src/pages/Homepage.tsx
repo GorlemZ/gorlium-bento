@@ -9,7 +9,7 @@ function Homepage() {
         overflow: "hidden",
       }}
     >
-      <GorliumImage path={terrario2} height="80vh" opacity={0.85}>
+      <GorliumImage path={terrario2} opacity={0.85}>
         <GorliumImage path={logo} />
       </GorliumImage>
     </Box>
