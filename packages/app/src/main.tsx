@@ -13,6 +13,9 @@ createRoot(document.getElementById("root")!).render(
       <Box
         style={{
           backgroundColor: "#101401",
+
+          display: "flex",
+          flexDirection: "column",
           minHeight: "100vh",
         }}
       >

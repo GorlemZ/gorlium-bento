@@ -1,45 +1,52 @@
-import { Box, Columns, Link, Tiles, Title } from "@buildo/bento-design-system";
+import { Box } from "@buildo/bento-design-system";
+import { FC } from "react";
 
 interface GorliumImageProps {
   path: string;
-  height?: string;
   opacity?: number;
+  height?: string;
   children?: React.ReactNode;
 }
 
-function GorliumImage({ path, height, opacity, children }: GorliumImageProps) {
-  if (!height) height = "auto";
+const GorliumImage: FC<GorliumImageProps> = ({
+  path,
+  opacity = 1,
+  children,
+  height = "100%",
+}) => {
   return (
     <Box
-      padding={0}
       style={{
         position: "relative",
+        height: height,
+        objectFit: "contain",
+        overflow: "hidden",
         display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
+        flexDirection: "row",
       }}
     >
       <img
         src={path}
         style={{
-          height: height,
+          width: "100%",
           opacity: opacity,
           objectFit: "contain",
-          flex: height === "auto" ? 1 : 0,
         }}
       />
       {children && (
-        <div
+        <Box
           style={{
             position: "absolute",
-            height: "content",
+            top: "50%",
+            left: 0,
+            transform: "translateY(-50%)",
           }}
         >
           {children}
-        </div>
+        </Box>
       )}
     </Box>
   );
-}
+};
 
 export default GorliumImage;

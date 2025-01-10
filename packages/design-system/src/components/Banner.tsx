@@ -8,7 +8,7 @@ interface BannerProps {
 
 function Banner({ children }: BannerProps) {
   return (
-    <Box padding={16}>
+    <Box padding={24} style={{ flexShrink: 0 }}>
       <Marquee loop={0} autoFill={true} pauseOnHover={true}>
         {children}
       </Marquee>

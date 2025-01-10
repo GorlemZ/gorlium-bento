@@ -31,17 +31,18 @@ $root: (
       textPrimary: var(--bento-brandColor-brandSecondary),
       textInteractive: var(--bento-brandColor-brandSecondary),
     ),
-    lineHeight: (
-      titleLarge: 36px,
-    ),
-    fontSize: (
-      titleLarge: 36px,
-    ),
-    outlineColor: (
-      // outlineInputFocus: #fefae0,
-      // outlineInteractive: #fefae0,
-      outlineDecorative: #fefae0,
-    ),
+    // lineHeight: (
+    //   titleLarge: 40px,
+    // ),
+    // fontSize: (
+    //   titleLarge: 40px,
+    // ),
+    outlineColor:
+      (
+        // outlineInputFocus: #fefae0,
+        // outlineInteractive: #fefae0,
+        outlineDecorative: #fefae0,
+      ),
     interactiveForegroundColor: (
       primaryTransparentEnabledForeground:
         var(--bento-brandColor-brandSecondary),
