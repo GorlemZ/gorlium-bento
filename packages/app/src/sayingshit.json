@@ -1,0 +1,18 @@
+{
+  "lore": {
+    "lore1": {
+      "title": "TITLE",
+      "content": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget dolor leo.",
+        "Aliquam erat volutpat. Aliquam pretium orci quis turpis tempus scelerisque. Pellentesque placerat sapien et nisi aliquam, et facilisis dui auctor. Duis vitae sagittis purus, in interdum nisl. Mauris ut bibendum"
+      ]
+    },
+    "lore2": {
+      "title": "TITLE",
+      "content": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget dolor leo.",
+        "Aliquam erat volutpat. Aliquam pretium orci quis turpis tempus scelerisque. Pellentesque placerat sapien et nisi aliquam, et facilisis dui auctor. Duis vitae sagittis purus, in interdum nisl. Mauris ut bibendum"
+      ]
+    }
+  }
+}

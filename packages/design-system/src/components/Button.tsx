@@ -1,4 +1,4 @@
-import { Box, Title } from "@buildo/bento-design-system";
+import { Box, Link, Title } from "@buildo/bento-design-system";
 interface HeaderProps {
   link: string;
   text: string;
@@ -26,9 +26,11 @@ function Button({ link, text }: HeaderProps) {
         (e.currentTarget.style.backgroundColor = "transparent")
       }
     >
-      <Title size="large" align="center">
-        {text}
-      </Title>
+      <Link href={link} style={{ textDecoration: "none", color: "inherit" }}>
+        <Title size="large" align="center">
+          {text}
+        </Title>
+      </Link>
     </Box>
   );
 }
