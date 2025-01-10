@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Inline
         collapseBelow="desktop"
-        space={0}
+        space={16}
         align={{
           mobile: "center",
           tablet: "center",
@@ -25,7 +25,7 @@ function App() {
             ["HOME", "/"],
             ["LORE", "lore"],
             ["TERRARIUMS", "t"],
-            ["STICH BITCH", "t"],
+            ["STICH", "t"],
             ["DEV", ""],
           ]}
         />

@@ -1,25 +1,32 @@
-import { Body, Box, Column, Columns } from "@buildo/bento-design-system";
+import { Body, Box, Column, Columns, Title } from "@buildo/bento-design-system";
 import GorliumImage from "./GorliumImage";
 
 interface PostSectionProps {
   imgPath?: string;
-  text: string;
+  title: string;
+  text: string[];
 }
 
-function PostSection({ imgPath, text }: PostSectionProps) {
+function PostSection({ imgPath, text, title }: PostSectionProps) {
   return (
-    <Columns space={16}>
-      {imgPath && (
-        <Column width="2/5">
-          <GorliumImage path={imgPath} />
+    <>
+      <Title size="small">{title}</Title>
+      <Columns space={16} collapseBelow="desktop">
+        {imgPath && (
+          <Column width="1/5">
+            <Box padding={8}></Box>
+            <GorliumImage path={imgPath} />
+          </Column>
+        )}
+        <Column>
+          <Body size="medium" align="left">
+            {text.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </Body>
         </Column>
-      )}
-      <Column>
-        <Box padding={4}>
-          <Body size="large">{text}</Body>
-        </Box>
-      </Column>
-    </Columns>
+      </Columns>
+    </>
   );
 }
 

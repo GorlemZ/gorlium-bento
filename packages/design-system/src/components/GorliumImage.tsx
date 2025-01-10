@@ -5,18 +5,20 @@ interface GorliumImageProps {
   path: string;
   opacity?: number;
   children?: React.ReactNode;
+  height?: string;
 }
 
 const GorliumImage: FC<GorliumImageProps> = ({
   path,
   opacity = 1,
   children,
+  height,
 }) => {
   return (
     <Box
       style={{
         position: "relative",
-        height: "100%",
+        height: height ? height : "100%",
         maxHeight: "80vh",
         objectFit: "contain",
         overflow: "hidden",
