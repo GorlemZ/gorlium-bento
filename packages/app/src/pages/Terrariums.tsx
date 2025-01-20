@@ -22,6 +22,7 @@ function Terrariums() {
           text={data.terrariums.terrarium1.content}
         ></PostSection>
         <PostSection
+          imgAlignRight={true}
           imgPath={fila1}
           imgSize={"1/2"}
           title={data.terrariums.terrarium2.title}

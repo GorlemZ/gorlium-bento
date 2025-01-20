@@ -12,8 +12,8 @@ function Header({ list }: HeaderProps) {
         columns={{
           mobile: 1,
           tablet: 1,
-          desktop: 5,
-          wide: 5,
+          desktop: 4,
+          wide: 4,
         }}
       >
         {list.slice(0, 5).map(([item, link], index) => (

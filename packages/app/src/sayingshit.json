@@ -5,7 +5,9 @@
       "content": [
         "SO. Here I am, trying my best to develop this website. What started as a simple frontend exercise has somehow morphed into the hub for all my hobbies. 🤷",
         "Like all my projects, I've gone big right out of the gate—and yes, I'm already stressed. Not sure if that's a good thing or not. But hey, I'm having fun, so maybe it's okay. Hopefully, this will turn into something therapeutic—a little diary for all the things I love doing.",
-        "Before the first deploy, the website changed a couple of times already lol"
+        "- Before the first deploy, the website changed a couple of times already lol",
+        "- I do have old pictures of my terrariums, could be nice to add updates on them and how I eventually fixe them.",
+        "- Should I add a section for my knitting projects? Not sure. Maye is they're plants hangers or something related to plants."
       ]
     },
     "lore2": {
@@ -35,6 +37,15 @@
         "Those tiny jars of greenery? They're like a whole world in miniature, and honestly, I could cry from the cuteness. 🌿",
         "I've made these little treasures for all kinds of gifts, and they're always a hit. There's just something magical about a tiny, self-contained ecosystem that never fails to captivate people. It's also proof that size really doesn't matter —eheh.",
         "This last batch I made in autumn 2024 is currently surviving the harsh conditions of my terribly exposed office window (a true test of resilience). They just stretched a little bit, ready to be trimmed in springtime. 🌱"
+      ]
+    }
+  },
+  "dev": {
+    "dev1": {
+      "title": "It is just my job",
+      "content": [
+        "I write questionable code that somehow does the job.",
+        "Don't believe me? Check out the source code for this website and see for yourself:"
       ]
     }
   }

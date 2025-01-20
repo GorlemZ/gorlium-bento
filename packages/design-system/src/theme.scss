@@ -55,7 +55,9 @@ $root: (
     interactiveForegroundColor: (
       primaryTransparentEnabledForeground:
         var(--bento-brandColor-brandSecondary),
-      // linkEnabled: rgb(255, 255, 255),
+      linkEnabled: rgb(255, 255, 255),
+      linkHover: rgb(255, 255, 255),
+      linkFocus: rgb(255, 255, 255),
       primaryTransparentHoverForeground: var(--bento-brandColor-brandSecondary),
       primaryTransparentFocusForeground: var(--bento-brandColor-brandSecondary),
     ),
