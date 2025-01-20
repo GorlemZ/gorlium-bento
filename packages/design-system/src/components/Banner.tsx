@@ -6,14 +6,18 @@ interface BannerProps {
   children: ReactNode;
 }
 
+const title = "|     WELCOME TO THE GORLIUM    |";
+
 function Banner({ children }: BannerProps) {
   return (
-    <>
-      <Box padding={4}></Box>
-      <Marquee loop={0} autoFill={true} pauseOnHover={true}>
-        {children}
-      </Marquee>
-    </>
+    <Marquee
+      loop={0}
+      autoFill={true}
+      pauseOnHover={true}
+      style={{ alignSelf: "right", height: "5vh", color: "white" }}
+    >
+      {children}
+    </Marquee>
   );
 }
 

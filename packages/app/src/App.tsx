@@ -2,6 +2,7 @@ import { Header, Banner, Title, Inline } from "@gorliumbento/design-system";
 import Homepage from "./pages/Homepage";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Lore from "./pages/Lore";
+import Terrariums from "./pages/Terrariums";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           list={[
             ["HOME", "/"],
             ["LORE", "lore"],
-            ["TERRARIUMS", "t"],
+            ["TERRARIUMS", "terrariums"],
             ["STICH", "t"],
             ["DEV", ""],
           ]}
@@ -32,6 +33,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/lore" element={<Lore />} />
+          <Route path="/terrariums" element={<Terrariums />} />
         </Routes>
         <Banner>
           <Title size={"medium"}>| WELCOME TO THE GORLIUM |</Title>
