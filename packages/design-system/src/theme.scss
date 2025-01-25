@@ -12,23 +12,29 @@ $root: (
     boxShadow: (
       outlineInteractivePrimaryEnabled: var(--bento-brandColor-brandSecondary),
       outlineInteractivePrimaryHover: var(--bento-brandColor-brandSecondary),
+      outlineInputEnabled: var(--bento-brandColor-brandSecondary),
+      outlineInputFocus: var(--bento-brandColor-brandSecondary),
     ),
     radius-16: 0px,
     backgroundColor: (
-      primary: black,
+      backgroundNegative: var(--bento-brandColor-brandTertiary),
       backgroundInteractive: #606c38,
       backgroundInteractiveOverlay: var(--bento-brandColor-brandSecondary),
       backgroundDarkScrim: black,
       backgroundInformative: black,
+      backgroundPrimary: var(--bento-brandColor-brandPrimary),
+      backgroundSecondary: var(--bento-brandColor-brandPrimary),
     ),
     foregroundColor: (
       foregroundInteractive: black,
+      foregroundNegative: var(--bento-brandColor-brandSecondary),
     ),
     fontFamily: (
       default: "Consolas, monospace",
     ),
     textColor: (
       textPrimary: var(--bento-brandColor-brandSecondary),
+      textSecondary: var(--bento-brandColor-brandSecondary),
       textInteractive: var(--bento-brandColor-brandSecondary),
     ),
     lineHeight: (
@@ -46,24 +52,28 @@ $root: (
       titleLarge: 4vh,
       titleMedium: 3vh,
       titleSmall: 2vh,
+      labelSmall: 1.6vh,
     ),
     outlineColor: (
       // outlineInputFocus: #fefae0,
       // outlineInteractive: #fefae0,
-      outlineDecorative: #fefae0,
+      outlineDecorative: var(--bento-brandColor-brandSecondary),
     ),
     interactiveForegroundColor: (
       primaryTransparentEnabledForeground:
         var(--bento-brandColor-brandSecondary),
-      // linkEnabled: rgb(255, 255, 255),
+      linkEnabled: rgb(255, 255, 255),
+      linkHover: rgb(255, 255, 255),
+      linkFocus: rgb(255, 255, 255),
       primaryTransparentHoverForeground: var(--bento-brandColor-brandSecondary),
       primaryTransparentFocusForeground: var(--bento-brandColor-brandSecondary),
     ),
     interactiveBackgroundColor: (
-      // primarySolidEnabledBackground: rgb(255, 255, 255),
-      // primarySolidHoverBackground: rgb(255, 255, 255),
-      primaryTransparentHoverBackground: rgba(96, 108, 56, 0.4),
-      primaryTransparentFocusBackground: rgba(96, 108, 56, 0.4),
+      primarySolidFocusBackground: var(--bento-brandColor-brandPrimary),
+      primarySolidEnabledBackground: var(--bento-brandColor-brandTertiary),
+      primarySolidHoverBackground: var(--bento-brandColor-brandPrimary),
+      primaryTransparentHoverBackground: var(--bento-brandColor-brandPrimary),
+      primaryTransparentFocusBackground: var(--bento-brandColor-brandPrimary),
     ),
   ),
 );

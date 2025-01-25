@@ -1,4 +1,4 @@
-import { Box, Column, Tiles } from "@buildo/bento-design-system";
+import { Banner, Box, Column, Tiles } from "@buildo/bento-design-system";
 import Button from "./Button";
 interface HeaderProps {
   list: [string, string][];

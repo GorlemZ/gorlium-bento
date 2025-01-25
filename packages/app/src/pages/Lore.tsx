@@ -5,7 +5,7 @@ import {
   PostSection,
   Stack,
 } from "@gorliumbento/design-system";
-import terrario2 from "../assets/Terrario2.png";
+
 import data from "../sayingshit.json";
 function Lore() {
   return (
@@ -17,12 +17,15 @@ function Lore() {
         <PostSection
           title={data.lore.lore1.title}
           text={data.lore.lore1.content}
-        ></PostSection>
+        />
         <PostSection
           title={data.lore.lore2.title}
-          imgPath={terrario2}
           text={data.lore.lore2.content}
-        ></PostSection>
+        />
+        <PostSection
+          title={data.lore.lore3.title}
+          text={data.lore.lore3.content}
+        />
       </Stack>
       <Column width="content">
         <Box width={40}></Box>
