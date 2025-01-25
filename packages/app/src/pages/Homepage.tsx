@@ -1,8 +1,19 @@
+import { useEffect } from "react";
 import { Box, GorliumImage } from "@gorliumbento/design-system";
 import terrario2 from "../assets/Terrario2.png";
 import logo from "../assets/croppedLogoDark.png";
 
+function preloadImage(url: string) {
+  const img = new Image();
+  img.src = url;
+}
+
 function Homepage() {
+  useEffect(() => {
+    preloadImage(terrario2);
+    preloadImage(logo);
+  }, []);
+
   return (
     <Box
       style={{
@@ -15,4 +26,5 @@ function Homepage() {
     </Box>
   );
 }
+
 export default Homepage;

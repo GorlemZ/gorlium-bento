@@ -4,6 +4,7 @@ import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Lore from "./pages/Lore";
 import Terrariums from "./pages/Terrariums";
 import Dev from "./pages/Dev";
+import Contacts from "./pages/Contacts";
 
 function App() {
   return (
@@ -25,17 +26,19 @@ function App() {
         <Header
           list={[
             ["HOME", "/"],
-            ["LORE", "lore"],
             ["TERRARIUMS", "terrariums"],
             //            ["STICH", "t"],
             ["DEV", "dev"],
+            ["BLOG", "blog"],
+            ["CONTACTS", "contacts"],
           ]}
         />
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/lore" element={<Lore />} />
+          <Route path="/blog" element={<Lore />} />
           <Route path="/terrariums" element={<Terrariums />} />
           <Route path="/dev" element={<Dev />} />
+          <Route path="/contacts" element={<Contacts />} />
         </Routes>
         <Banner>
           <Title size={"medium"}>| WELCOME TO THE GORLIUM |</Title>

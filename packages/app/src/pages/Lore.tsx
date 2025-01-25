@@ -17,7 +17,15 @@ function Lore() {
         <PostSection
           title={data.lore.lore1.title}
           text={data.lore.lore1.content}
-        ></PostSection>
+        />
+        <PostSection
+          title={data.lore.lore2.title}
+          text={data.lore.lore2.content}
+        />
+        <PostSection
+          title={data.lore.lore3.title}
+          text={data.lore.lore3.content}
+        />
       </Stack>
       <Column width="content">
         <Box width={40}></Box>

@@ -11,10 +11,19 @@
       ]
     },
     "lore2": {
-      "title": "TITLE",
+      "title": "22 Jan 2025 - DEPLOYIN",
       "content": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget dolor leo.",
-        "Aliquam erat volutpat. Aliquam pretium orci quis turpis tempus scelerisque. Pellentesque placerat sapien et nisi aliquam, et facilisis dui auctor. Duis vitae sagittis purus, in interdum nisl. Mauris ut bibendum"
+        "I'm going to deploy the thing, just few retouches left. Should I leave a form to contact me?",
+        "Copilot suggested me the following adding:",
+        "--- I'm not sure if I want to be contacted. I'm not sure if I want to be found. I'm not sure if I want to be seen. I'm not sure if I want to be heard. I'm not sure if I want to be known. I'm not sure if I want to be loved. I'm not sure if I want to be alive. I'm not sure if I want to be. ---",
+        "CALM THE FUCK DOWN COPILOT"
+      ]
+    },
+    "lore3": {
+      "title": "25 Jan 2025 - THAT WAS A LIE",
+      "content": [
+        "At the end I didn't deploy BUT I'm gonna do it soon ⚡",
+        "Today, I came up with an idea for a new project: a microprocessor-camera system to monitor birds in a small feeding house, equipped with a motion sensor. Ugh, why do I keep piling up projects instead of focusing on mastering just one?"
       ]
     }
   },
@@ -38,6 +47,16 @@
         "I've made these little treasures for all kinds of gifts, and they're always a hit. There's just something magical about a tiny, self-contained ecosystem that never fails to captivate people. It's also proof that size really doesn't matter —eheh.",
         "This last batch I made in autumn 2024 is currently surviving the harsh conditions of my terribly exposed office window (a true test of resilience). They just stretched a little bit, ready to be trimmed in springtime. 🌱"
       ]
+    },
+    "terrarium3": {
+      "title": "Season's layering",
+      "content": [
+        "Plants thrive best in the spring, so I'm holding off on creating new terrariums for now to avoid putting unnecessary stress on them 🌱.",
+        "During the darker, colder months, plants have less energy due to reduced sunlight and slower growth, making it harder for them to establish strong roots. In the spring there's usually enough sunlight to support a healthy rooting process and I can ensure the plants thrive in their new environment.",
+        "Also, working in the cold to create terrariums isn't ideal for me either: I'm too lazy to work inside under artificial light and then clean everything up while my cats try to scatter the materials all over the house.",
+        "By waiting for sunnier days, I can ensure both the plants and I are set up for success. In the meantime, here's a bonus Patrizio picture to enjoy.",
+        "PS. This fucker and his brother are the reason why I can't have free plants in the house. They eat them all."
+      ]
     }
   },
   "dev": {
@@ -45,7 +64,8 @@
       "title": "It is just my job",
       "content": [
         "I write questionable code that somehow does the job.",
-        "Don't believe me? Check out the source code for this website and see for yourself:"
+        "Don't believe me? Check out the source code for this website and see for yourself. ",
+        "Also, feel free to open issues if you have suggestions or if you want to report a bug 🐛"
       ]
     }
   }

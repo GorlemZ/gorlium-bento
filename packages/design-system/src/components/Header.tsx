@@ -1,4 +1,4 @@
-import { Box, Column, Tiles } from "@buildo/bento-design-system";
+import { Banner, Box, Column, Tiles } from "@buildo/bento-design-system";
 import Button from "./Button";
 interface HeaderProps {
   list: [string, string][];
@@ -12,8 +12,8 @@ function Header({ list }: HeaderProps) {
         columns={{
           mobile: 1,
           tablet: 1,
-          desktop: 4,
-          wide: 4,
+          desktop: 5,
+          wide: 5,
         }}
       >
         {list.slice(0, 5).map(([item, link], index) => (
