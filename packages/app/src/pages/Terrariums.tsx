@@ -9,7 +9,7 @@ import {
 import terrario2 from "../assets/Terrario1.png";
 import fila1 from "../assets/Fila1Cropped.png";
 import patrick from "../assets/Patrizio.png";
-import data from "../sayingshit.json";
+import { useTranslation } from "react-i18next";
 
 function preloadImage(url: string) {
   const img = new Image();
@@ -17,6 +17,7 @@ function preloadImage(url: string) {
 }
 
 function Terrariums() {
+  const { t } = useTranslation();
   useEffect(() => {
     preloadImage(terrario2);
     preloadImage(fila1);
@@ -32,22 +33,22 @@ function Terrariums() {
         <PostSection
           imgPath={terrario2}
           imgSize={"1/2"}
-          title={data.terrariums.terrarium1.title}
-          text={data.terrariums.terrarium1.content}
+          title={t("terrariums.terrarium1.title")}
+          text={t("terrariums.terrarium1.content")}
         ></PostSection>
         <PostSection
           imgAlignRight={true}
           imgPath={fila1}
           imgSize={"1/2"}
-          title={data.terrariums.terrarium2.title}
-          text={data.terrariums.terrarium2.content}
+          title={t("terrariums.terrarium2.title")}
+          text={t("terrariums.terrarium2.content")}
         ></PostSection>
         <PostSection
           imgAlignRight={false}
           imgPath={patrick}
           imgSize={"1/2"}
-          title={data.terrariums.terrarium3.title}
-          text={data.terrariums.terrarium3.content}
+          title={t("terrariums.terrarium3.title")}
+          text={t("terrariums.terrarium3.content")}
         ></PostSection>
       </Stack>
       <Column width="content">

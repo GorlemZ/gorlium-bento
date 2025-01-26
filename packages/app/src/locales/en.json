@@ -1,0 +1,93 @@
+{
+  "translation": {
+    "header": {
+      "home": "HOME",
+      "terrariums": "TERRARIUMS",
+      "dev": "DEV",
+      "blog": "BLOG",
+      "contacts": "CONTACTS"
+    },
+    "contacts": {
+      "formDescription": "Write me a message 💌 and remember to leave your contact info",
+      "formTitle": "Do you want a terrarium?",
+      "errorMessage": "Please fill in all the fields 🥲",
+      "successMessage": "SENT! 🌵🌵🌵",
+      "placeholderName": "Type your name here...",
+      "placeholderMessage": "Type your message here...",
+      "sendButton": "SEND"
+    },
+    "bannerWelcome": "| WELCOME TO THE GORLIUM |",
+    "lore": {
+      "lore1": {
+        "title": "20 Jan 2025 - NOT YET STARTED, ALREADY CHANGED. ",
+        "content": [
+          "SO. Here I am, trying my best to develop this website. What started as a simple frontend exercise has somehow morphed into the hub for all my hobbies. 🤷",
+          "Like all my projects, I've gone big right out of the gate—and yes, I'm already stressed. Not sure if that's a good thing or not. But hey, I'm having fun, so maybe it's okay. Hopefully, this will turn into something therapeutic—a little diary for all the things I love doing.",
+          "- Before the first deploy, the website changed a couple of times already lol",
+          "- I do have old pictures of my terrariums, could be nice to add updates on them and how I eventually fixe them.",
+          "- Should I add a section for my knitting projects? Not sure. Maye is they're plants hangers or something related to plants."
+        ]
+      },
+      "lore2": {
+        "title": "22 Jan 2025 - DEPLOYIN",
+        "content": [
+          "I'm going to deploy the thing, just few retouches left. Should I leave a form to contact me?",
+          "Copilot suggested me the following adding:",
+          "--- I'm not sure if I want to be contacted. I'm not sure if I want to be found. I'm not sure if I want to be seen. I'm not sure if I want to be heard. I'm not sure if I want to be known. I'm not sure if I want to be loved. I'm not sure if I want to be alive. I'm not sure if I want to be. ---",
+          "CALM THE FUCK DOWN COPILOT"
+        ]
+      },
+      "lore3": {
+        "title": "25 Jan 2025 - THAT WAS A LIE",
+        "content": [
+          "At the end I didn't deploy BUT I'm gonna do it soon ⚡",
+          "I've added a contact me section that forward messages on telegram <3",
+          "Today, I came up with an idea for a new project: a microprocessor-camera system to monitor birds in a small feeding house, equipped with a motion sensor. Ugh, why do I keep piling up projects instead of focusing on mastering just one?"
+        ]
+      }
+    },
+    "terrariums": {
+      "terrarium1": {
+        "title": "The right mixture",
+        "content": [
+          "The first time I made a terrarium, I failed spectacularly 🥀. I thought I could just throw some plants into a jar, and they'd thrive. Spoiler: they didn't. Despite having some basic plant knowledge [I'm no perfect plant mom, but I try!], my first attempt turned into a moldy disaster.",
+          "Terrariums, I learned, are about balance—and soil is at the heart of that. It's not just dirt; it's the foundation for everything. The right mixture creates the environment where plants can grow, water can circulate, and the whole ecosystem can thrive.",
+          "Take this terrarium in the picture, for example. It's ✨precious✨ to me because it holds pebbles and a snail shell from my [now lost] childhood home. I refused to give up on it after my initial failures.",
+          "Attempt One lasted three weeks. Mold everywhere, rotting fittonia, and stagnant water pooling at the bottom",
+          "Attempt Two failed almost immediately, after few days the colors and balance were all wrong.",
+          "Attempt Three? It thrived for five years before needing a refresh—and it's still alive and well today 💚.",
+          " The secret? A lot of trial and error—and discovering how much the right soil matters. Good soil doesn't just anchor the plants; it helps regulate water, prevents mold, and provides the nutrients needed for long-term health. A terrarium isn't just a pretty jar; it's an ecosystem. Get the soil mixture right, and the rest falls into place."
+        ]
+      },
+      "terrarium2": {
+        "title": "The tiny world",
+        "content": [
+          "Those tiny jars of greenery? They're like a whole world in miniature, and honestly, I could cry from the cuteness. 🌿",
+          "I've made these little treasures for all kinds of gifts, and they're always a hit. There's just something magical about a tiny, self-contained ecosystem that never fails to captivate people. It's also proof that size really doesn't matter —eheh.",
+          "This last batch I made in autumn 2024 is currently surviving the harsh conditions of my terribly exposed office window (a true test of resilience). They just stretched a little bit, ready to be trimmed in springtime. 🌱"
+        ]
+      },
+      "terrarium3": {
+        "title": "Season's layering",
+        "content": [
+          "Plants thrive best in the spring, so I'm holding off on creating new terrariums for now to avoid putting unnecessary stress on them 🌱.",
+          "During the darker, colder months, plants have less energy due to reduced sunlight and slower growth, making it harder for them to establish strong roots. In the spring there's usually enough sunlight to support a healthy rooting process and I can ensure the plants thrive in their new environment.",
+          "Also, working in the cold to create terrariums isn't ideal for me either: I'm too lazy to work inside under artificial light and then clean everything up while my cats try to scatter the materials all over the house.",
+          "By waiting for sunnier days, I can ensure both the plants and I are set up for success. In the meantime, here's a bonus Patrizio picture to enjoy.",
+          "PS. This fucker and his brother are the reason why I can't have free plants in the house. They eat them all."
+        ]
+      }
+    },
+    "dev": {
+      "dev1": {
+        "title": "It is just my job",
+        "content": [
+          "I write questionable code that somehow does the job.",
+          "Don't believe me? Check out the source code for this website and see for yourself. ",
+          "Also, feel free to open issues if you have suggestions or if you want to report a bug 🐛"
+        ],
+        "linkText": "This website codebase"
+      }
+    }
+  }
+}

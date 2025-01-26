@@ -7,6 +7,7 @@ import {
   Title,
 } from "@gorliumbento/design-system";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const sendMessageToTelegram = async (message: string) => {
   const telegramToken = import.meta.env.VITE_TELEGRAM_BOT_TOKEN;
@@ -36,6 +37,7 @@ const sendMessageToTelegram = async (message: string) => {
 };
 
 function Contacts() {
+  const { t } = useTranslation();
   const [name, setName] = React.useState("");
   const [message, setMessage] = React.useState("");
   const [isSent, setIsSent] = React.useState(false);
@@ -50,36 +52,36 @@ function Contacts() {
       setName("");
       setIsSent(false);
     } else {
-      setError("Please fill in all the fields 🥲");
+      setError(t("contacts.errorMessage"));
     }
   };
   return (
     <Stack space={0} dividers={true}>
       <Form
-        title="Do you want a terrarium?"
-        description="Write me a message 💌 and remember to leave your contact info"
-        errorBannerWidth="content"
+        title={t("contacts.formTitle")}
+        description={t("contacts.formDescription")}
+        errorBannerWidth="fill"
         error={error}
         submitButton={{
-          label: "SEND",
+          label: t("contacts.sendButton"),
           onPress: () => {
             onSubmit();
           },
         }}
       >
-        {isSent && <Title size="medium">{`SENT! 🌵🌵🌵`}</Title>}
+        {isSent && <Title size="medium">{t("contacts.successMessage")}</Title>}
 
         <FormSection>
           <TextField
             name="name"
-            placeholder="Type your name here..."
+            placeholder={t("contacts.placeholderName")}
             label="Name"
             value={name}
             onChange={setName}
           />
           <TextArea
             name="message"
-            placeholder="Type your message here..."
+            placeholder={t("contacts.placeholderMessage")}
             label="Message"
             value={message}
             onChange={setMessage}

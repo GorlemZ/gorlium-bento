@@ -9,16 +9,17 @@ import {
   Title,
 } from "@gorliumbento/design-system";
 import githublogo from "../assets/github-mark-white.png";
+import { useTranslation } from "react-i18next";
 
-import data from "../sayingshit.json";
 function Dev() {
+  const { t } = useTranslation();
   return (
     <Columns space={0}>
       <Column width="content">
         <Box width={40}></Box>
       </Column>
       <Stack space={24} dividers={true}>
-        <PostSection title={data.dev.dev1.title} text={data.dev.dev1.content}>
+        <PostSection title={t("dev.dev1.title")} text={t("dev.dev1.content")}>
           <Inline space={8} alignY={"center"}>
             👉
             <Link href="https://github.com/GorlemZ/gorlium-bento">
@@ -35,7 +36,7 @@ function Dev() {
                   />
                 </Box>
                 <Title size="small" align="center">
-                  This website codebase
+                  {t("dev.dev1.linkText")}
                 </Title>
               </Inline>
             </Link>
