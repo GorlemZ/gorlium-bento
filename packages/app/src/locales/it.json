@@ -1,0 +1,93 @@
+{
+  "translation": {
+    "header": {
+      "home": "HOME",
+      "terrariums": "TERRARI",
+      "dev": "DEV",
+      "blog": "BLOG",
+      "contacts": "CONTATTI"
+    },
+    "contacts": {
+      "formDescription": "Scrivimi un messaggio 💌 e ricordati di lasciare le tue informazioni di contatto",
+      "formTitle": "Vuoi un terrario?",
+      "errorMessage": "Per favore, compila tutti i campi 🥲",
+      "successMessage": "INVIATO! 🌵🌵🌵",
+      "placeholderName": "Scrivi il tuo nome qui...",
+      "placeholderMessage": "Scrivi il tuo messaggio qui...",
+      "sendButton": "INVIA"
+    },
+    "bannerWelcome": "| BENVENUTO SU GORLIUM |",
+    "lore": {
+      "lore1": {
+        "title": "20 Gen 2025 - NON È ANCORA INIZIATO, È GIÀ CAMBIATO.",
+        "content": [
+          "ECCOMI. Sto facendo del mio meglio per sviluppare questo sito web. Quello che è iniziato come un semplice esercizio di frontend si è trasformato nel punto centrale di tutti i miei hobby. 🤷",
+          "Come tutti i miei progetti, sono partita in grande fin dall'inizio — e sì, sono già stressata. Non sono sicura se sia una cosa positiva o no. Ma hey, mi sto divertendo, quindi forse va bene così. Speriamo che diventi qualcosa di terapeutico — un piccolo diario per tutte le cose che amo fare.",
+          "- Prima del primo deploy, il sito è già cambiato un paio di volte ahah",
+          "- Ho delle vecchie foto dei miei terrari, sarebbe bello aggiungere aggiornamenti su di loro e su come li ho sistemati.",
+          "- Dovrei aggiungere una sezione per i miei progetti di maglia? Non sono sicura. Magari se sono appendini per piante o qualcosa legato alle piante."
+        ]
+      },
+      "lore2": {
+        "title": "22 Gen 2025 - STIAMO RILASCIANDO IN PROD",
+        "content": [
+          "Sto per fare il deploy, mancano solo pochi ritocchi. Dovrei lasciare un modulo per contattarmi?",
+          "Copilot AI mi ha suggerito di aggiungere il seguente testo:",
+          "--- Non sono sicuro se voglio essere contattato. Non sono sicuro se voglio essere trovato. Non sono sicuro se voglio essere visto. Non sono sicuro se voglio essere sentito. Non sono sicuro se voglio essere conosciuto. Non sono sicuro se voglio essere amato. Non sono sicuro se voglio essere vivo. Non sono sicuro se voglio essere. ---",
+          "CAZZO CALMATI UN PO', COPILOT"
+        ]
+      },
+      "lore3": {
+        "title": "25 Gen 2025 - MENTIVO",
+        "content": [
+          "Alla fine non ho fatto il deploy MA lo farò presto ⚡",
+          "Ho aggiunto una sezione contatti che mi gira i messaggi su telegram <3",
+          "Oggi ho avuto un'idea per un nuovo progetto: un sistema microprocessore-camera per monitorare gli uccelli in una piccola mangiatoia, equipaggiata con un sensore di movimento. Ugh, perché continuo ad accumulare progetti invece di concentrarmi su uno solo?"
+        ]
+      }
+    },
+    "terrariums": {
+      "terrarium1": {
+        "title": "La miscela giusta",
+        "content": [
+          "La prima volta che ho fatto un terrario, ho fallito in modo spettacolare 🥀. Pensavo che sarebbe bastato mettere alcune piante in un vaso e sarebbero cresciute bene. Spoiler: non è successo. Nonostante avessi alcune conoscenze di base sulle piante [non sono una mamma di piante perfetta, ma ci provo!], il mio primo tentativo si è trasformato in un disastro pieno di muffa.",
+          "Ho imparato che i terrari sono una questione di equilibrio, e il terreno è al centro di tutto. Non è solo terra; è la base per tutto. La miscela giusta crea l'ambiente in cui le piante possono crescere, l'acqua può circolare, e l'intero ecosistema può prosperare.",
+          "Prendiamo ad esempio questo terrario nella foto. È ✨prezioso✨ per me perché contiene ciottoli e un guscio di lumaca della mia [ora persa] casa d'infanzia. Non ho voluto arrendermi dopo i miei fallimenti iniziali.",
+          "Il primo tentativo è durato tre settimane. Muffa ovunque, fittonia marcia e acqua stagnante sul fondo.",
+          "Il secondo tentativo è fallito quasi subito, dopo pochi giorni i colori e l'equilibrio erano completamente sbagliati.",
+          "Il terzo tentativo? Ha prosperato per cinque anni prima di aver bisogno di una rinfrescata—ed è ancora vivo e vegeto oggi 💚.",
+          "Il segreto? Tanti fallimenti—e capire quanto sia importante il terreno giusto. Un buon terreno non solo fissa le piante; aiuta a regolare l'acqua, previene la muffa e fornisce i nutrienti necessari per la salute a lungo termine. Un terrario non è solo un vaso carino; è un ecosistema. Crea la giusta miscela di terreno, e il resto si sistemerà da solo."
+        ]
+      },
+      "terrarium2": {
+        "title": "Il mondo in miniatura",
+        "content": [
+          "Quei piccoli vasi di verde? Sono come un intero mondo in miniatura, e onestamente, potrei piangere dalla tenerezza. 🌿",
+          "Ho fatto questi piccoli tesori per tutti i tipi di regali, e sono sempre un successo. C'è qualcosa di magico in un ecosistema minuscolo e autosufficiente che non smette mai di affascinare le persone. È anche la prova che le dimensioni non contano davvero — eheh.",
+          "L'ultimo lotto che ho fatto nell'autunno 2024 sta sopravvivendo alle dure condizioni della finestra del mio ufficio (una vera prova di resilienza). Sono solo un po' cresciuti, pronti per essere potati in primavera. 🌱"
+        ]
+      },
+      "terrarium3": {
+        "title": "La stratificazione stagionale",
+        "content": [
+          "Le piante prosperano meglio in primavera, quindi sto aspettando a creare nuovi terrari per evitare di metterle sotto stress inutile 🌱.",
+          "Durante i mesi più scuri e freddi, le piante hanno meno energia a causa della luce solare ridotta e della crescita più lenta, il che rende più difficile radicare bene. In primavera di solito c'è abbastanza sole per supportare un buon processo di radicamento, e posso assicurarmi che le piante prosperino nel loro nuovo ambiente.",
+          "Inoltre, lavorare al freddo per creare terrari non è ideale per me: sono troppo pigra per lavorare dentro sotto la luce artificiale e poi pulire tutto mentre i miei gatti cercano di spargere i materiali per tutta la casa con le loro zampine malvagie.",
+          "Aspettando giornate più soleggiate, posso assicurarmi che sia le piante che io siamo pronte. Nel frattempo, ecco una foto bonus di Patrizio.",
+          "PS. Questo bastardo e suo fratello sono il motivo per cui non posso avere piante libere in casa. Le mangiano tutte."
+        ]
+      }
+    },
+    "dev": {
+      "dev1": {
+        "title": "È solo il mio lavoro",
+        "content": [
+          "Scrivo codice discutibile che, in qualche modo, fa il suo lavoro.",
+          "Non mi credi? Dai un'occhiata al codice sorgente di questo sito web e vedilo con i tuoi occhi.",
+          "Inoltre, sentiti libero di segnalare problemi, se hai suggerimenti o se vuoi segnalare un bug 🐛"
+        ],
+        "linkText": "Questo è il codice del sito web"
+      }
+    }
+  }
+}

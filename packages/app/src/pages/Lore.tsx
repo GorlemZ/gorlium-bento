@@ -6,8 +6,9 @@ import {
   Stack,
 } from "@gorliumbento/design-system";
 
-import data from "../sayingshit.json";
+import { useTranslation } from "react-i18next";
 function Lore() {
+  const { t } = useTranslation();
   return (
     <Columns space={0}>
       <Column width="content">
@@ -15,16 +16,16 @@ function Lore() {
       </Column>
       <Stack space={24} dividers={true}>
         <PostSection
-          title={data.lore.lore1.title}
-          text={data.lore.lore1.content}
+          title={t("lore.lore1.title")}
+          text={t("lore.lore1.content")}
         />
         <PostSection
-          title={data.lore.lore2.title}
-          text={data.lore.lore2.content}
+          title={t("lore.lore2.title")}
+          text={t("lore.lore2.content")}
         />
         <PostSection
-          title={data.lore.lore3.title}
-          text={data.lore.lore3.content}
+          title={t("lore.lore3.title")}
+          text={t("lore.lore3.content")}
         />
       </Stack>
       <Column width="content">

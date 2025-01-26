@@ -5,8 +5,32 @@ import Lore from "./pages/Lore";
 import Terrariums from "./pages/Terrariums";
 import Dev from "./pages/Dev";
 import Contacts from "./pages/Contacts";
+import i18n from "../i18n";
+import { useTranslation } from "react-i18next";
+import { useState, useEffect } from "react";
 
 function App() {
+  const [isEng, setIsEng] = useState(() => {
+    const savedLang = localStorage.getItem("language");
+    return savedLang ? savedLang === "en" : true;
+  });
+
+  const handleLanguageChange = () => {
+    const newLang = isEng ? "it" : "en";
+    setIsEng(!isEng);
+    i18n.changeLanguage(newLang);
+    localStorage.setItem("language", newLang);
+  };
+
+  useEffect(() => {
+    const savedLang = localStorage.getItem("language");
+    if (savedLang) {
+      i18n.changeLanguage(savedLang);
+    }
+  }, []);
+
+  const { t } = useTranslation();
+
   return (
     <BrowserRouter>
       <Inline
@@ -24,15 +48,17 @@ function App() {
         }}
       >
         <Header
+          onToggleLanguage={handleLanguageChange}
+          initialLanguage={isEng ? "en" : "it"}
           list={[
-            ["HOME", "/"],
-            ["TERRARIUMS", "terrariums"],
-            //            ["STICH", "t"],
-            ["DEV", "dev"],
-            ["BLOG", "blog"],
-            ["CONTACTS", "contacts"],
+            [t("header.home"), "/"],
+            [t("header.terrariums"), "terrariums"],
+            [t("header.dev"), "dev"],
+            [t("header.blog"), "blog"],
+            [t("header.contacts"), "contacts"],
           ]}
         />
+
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/blog" element={<Lore />} />
@@ -41,7 +67,7 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
         <Banner>
-          <Title size={"medium"}>| WELCOME TO THE GORLIUM |</Title>
+          <Title size={"medium"}>{t("bannerWelcome")}</Title>
         </Banner>
       </Inline>
     </BrowserRouter>
