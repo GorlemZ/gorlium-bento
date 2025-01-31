@@ -12,6 +12,8 @@
       "formTitle": "Do you want a terrarium?",
       "errorMessage": "Please fill in all the fields 🥲",
       "successMessage": "SENT! 🌵🌵🌵",
+      "formMessage": "Message",
+      "formName": "Name",
       "placeholderName": "Type your name here...",
       "placeholderMessage": "Type your message here...",
       "sendButton": "SEND"

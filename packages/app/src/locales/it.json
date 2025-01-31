@@ -12,6 +12,8 @@
       "formTitle": "Vuoi un terrario?",
       "errorMessage": "Per favore, compila tutti i campi 🥲",
       "successMessage": "INVIATO! 🌵🌵🌵",
+      "formMessage": "Messaggio",
+      "formName": "Nome",
       "placeholderName": "Scrivi il tuo nome qui...",
       "placeholderMessage": "Scrivi il tuo messaggio qui...",
       "sendButton": "INVIA"
