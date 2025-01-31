@@ -75,14 +75,14 @@ function Contacts() {
           <TextField
             name="name"
             placeholder={t("contacts.placeholderName")}
-            label="Name"
+            label={t("contacts.formName")}
             value={name}
             onChange={setName}
           />
           <TextArea
             name="message"
             placeholder={t("contacts.placeholderMessage")}
-            label="Message"
+            label={t("contacts.formMessage")}
             value={message}
             onChange={setMessage}
             rows={10}

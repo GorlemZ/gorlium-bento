@@ -3,7 +3,7 @@
     "header": {
       "home": "HOME",
       "terrariums": "TERRARI",
-      "dev": "DEV",
+      "dev": "GitHub",
       "blog": "BLOG",
       "contacts": "CONTATTI"
     },
@@ -12,6 +12,8 @@
       "formTitle": "Vuoi un terrario?",
       "errorMessage": "Per favore, compila tutti i campi 🥲",
       "successMessage": "INVIATO! 🌵🌵🌵",
+      "formMessage": "Messaggio",
+      "formName": "Nome",
       "placeholderName": "Scrivi il tuo nome qui...",
       "placeholderMessage": "Scrivi il tuo messaggio qui...",
       "sendButton": "INVIA"
@@ -86,7 +88,7 @@
           "Non mi credi? Dai un'occhiata al codice sorgente di questo sito web e vedilo con i tuoi occhi.",
           "Inoltre, sentiti libero di segnalare problemi, se hai suggerimenti o se vuoi segnalare un bug 🐛"
         ],
-        "linkText": "Questo è il codice del sito web"
+        "linkText": "Repo di questo sito web su GitHub"
       }
     }
   }

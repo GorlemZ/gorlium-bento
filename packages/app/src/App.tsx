@@ -53,9 +53,9 @@ function App() {
           list={[
             [t("header.home"), "/"],
             [t("header.terrariums"), "terrariums"],
-            [t("header.dev"), "dev"],
             [t("header.blog"), "blog"],
             [t("header.contacts"), "contacts"],
+            [t("header.dev"), "dev"],
           ]}
         />
 

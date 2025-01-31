@@ -1,17 +1,20 @@
 import {
   Box,
+  Button,
   Column,
   Columns,
+  IconProps,
   Inline,
-  Link,
   PostSection,
   Stack,
-  Title,
 } from "@gorliumbento/design-system";
 import githublogo from "../assets/github-mark-white.png";
 import { useTranslation } from "react-i18next";
 
 function Dev() {
+  const iconP = (props: IconProps) => {
+    return <img src={githublogo} alt="github logo" width={props.size * 2} />;
+  };
   const { t } = useTranslation();
   return (
     <Columns space={0}>
@@ -22,24 +25,19 @@ function Dev() {
         <PostSection title={t("dev.dev1.title")} text={t("dev.dev1.content")}>
           <Inline space={8} alignY={"center"}>
             👉
-            <Link href="https://github.com/GorlemZ/gorlium-bento">
-              <Inline space={8} alignY={"center"}>
-                <Box padding={8} height={40}>
-                  <img
-                    src={githublogo}
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "contain",
-                      padding: 0,
-                    }}
-                  />
-                </Box>
-                <Title size="small" align="center">
-                  {t("dev.dev1.linkText")}
-                </Title>
-              </Inline>
-            </Link>
+            <Button
+              icon={iconP}
+              label={t("dev.dev1.linkText")}
+              kind="transparent"
+              hierarchy="primary"
+              size="large"
+              onPress={() =>
+                window.open(
+                  "https://github.com/GorlemZ/gorlium-bento",
+                  "_blank"
+                )
+              }
+            ></Button>
           </Inline>
         </PostSection>
       </Stack>
