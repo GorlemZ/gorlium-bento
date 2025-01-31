@@ -3,7 +3,7 @@
     "header": {
       "home": "HOME",
       "terrariums": "TERRARIUMS",
-      "dev": "DEV",
+      "dev": "GitHub",
       "blog": "BLOG",
       "contacts": "CONTACTS"
     },
@@ -88,7 +88,7 @@
           "Don't believe me? Check out the source code for this website and see for yourself. ",
           "Also, feel free to open issues if you have suggestions or if you want to report a bug 🐛"
         ],
-        "linkText": "This website codebase"
+        "linkText": "This website GitHub repo"
       }
     }
   }
