@@ -7,7 +7,7 @@ import {
   Stack,
 } from "@gorliumbento/design-system";
 import terrario2 from "../assets/Terrario1.png";
-import fila1 from "../assets/Fila1Cropped.png";
+import fila1 from "../assets/Fila1cropped.png";
 import patrick from "../assets/Patrizio.png";
 import { useTranslation } from "react-i18next";
 
