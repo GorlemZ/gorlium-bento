@@ -5,6 +5,7 @@ import { sassPlugin } from "esbuild-sass-plugin";
 export default defineConfig({
   entry: ["src/index.ts"],
   outDir: "dist",
+  // @ts-ignore
   esbuildPlugins: [vanillaExtractPlugin(), sassPlugin()],
   dts: true,
   // Include here the css files coming from external dependencies, which we

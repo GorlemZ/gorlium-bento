@@ -5,7 +5,8 @@
       "terrariums": "TERRARI",
       "dev": "GitHub",
       "blog": "BLOG",
-      "contacts": "CONTATTI"
+      "contacts": "CONTATTI",
+      "instructions": "CURA"
     },
     "contacts": {
       "formDescription": "Scrivimi un messaggio 💌 e ricordati di lasciare le tue informazioni di contatto",
@@ -89,6 +90,30 @@
           "Inoltre, sentiti libero di segnalare problemi, se hai suggerimenti o se vuoi segnalare un bug 🐛"
         ],
         "linkText": "Repo di questo sito web su GitHub"
+      }
+    },
+    "instructions": {
+      "title": "Come prenderti cura del tuo terrario 🌱",
+      "step1": {
+        "title": "Dove posizionarlo",
+        "content": [
+          "Metti il terrario in una zona luminosa della casa, ma evita la luce diretta del sole. I raggi solari possono surriscaldare il vetro e danneggiare le piante. La luce indiretta e diffusa è l'ideale."
+        ]
+      },
+      "step2": {
+        "title": "Controllo della condensa",
+        "content": [
+          "Ogni tanto osserva il vetro del terrario:",
+          "- Condensa fino a metà del vetro → situazione perfetta ✅",
+          "- Nessuna condensa → il terrario è troppo secco. Spruzza 2-3 volte con un vaporizzatore e ripeti ogni giorno finché non vedi la giusta condensa.",
+          "- Condensa su quasi tutto il vetro → il terrario è troppo umido. Lascia il tappo leggermente aperto per circa 10 minuti al giorno e ripeti finché l'umidità torna equilibrata."
+        ]
+      },
+      "step3": {
+        "title": "Manutenzione minima",
+        "content": [
+          "Se hai acquistato un terrario da me, non dovrai preoccuparti troppo: i miei terrari sono già stabilizzati e richiedono pochissime attenzioni. Ti basterà controllare la condensa e intervenire solo se serve."
+        ]
       }
     }
   }

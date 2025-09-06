@@ -1,4 +1,10 @@
-import { Header, Banner, Title, Inline } from "@gorliumbento/design-system";
+import {
+  Header,
+  Banner,
+  Title,
+  Inline,
+  Stack,
+} from "@gorliumbento/design-system";
 import Homepage from "./pages/Homepage";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Lore from "./pages/Lore";
@@ -8,18 +14,17 @@ import Contacts from "./pages/Contacts";
 import i18n from "../i18n";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
+import { Instructions } from "./pages/Instructions";
 
 function App() {
-  const [isEng, setIsEng] = useState(() => {
-    const savedLang = localStorage.getItem("language");
-    return savedLang ? savedLang === "en" : true;
-  });
+  // const [isEng, setIsEng] = useState(() => {
+  //   const savedLang = localStorage.getItem("language");
+  //   return savedLang ? savedLang === "en" : false;
+  // });
 
   const handleLanguageChange = () => {
-    const newLang = isEng ? "it" : "en";
-    setIsEng(!isEng);
-    i18n.changeLanguage(newLang);
-    localStorage.setItem("language", newLang);
+    // Temporarily disable language switching
+    console.log("Language switching is disabled.");
   };
 
   useEffect(() => {
@@ -33,43 +38,40 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Inline
-        collapseBelow="wide"
-        space={16}
-        align={{
-          mobile: "center",
-          tablet: "center",
-          desktop: "center",
-        }}
-        reverse={{
-          mobile: true,
-          tablet: true,
-          desktop: false,
-        }}
-      >
-        <Header
-          onToggleLanguage={handleLanguageChange}
-          initialLanguage={isEng ? "en" : "it"}
-          list={[
-            [t("header.home"), "/"],
-            [t("header.terrariums"), "terrariums"],
-            [t("header.blog"), "blog"],
-            [t("header.contacts"), "contacts"],
-            [t("header.dev"), "dev"],
-          ]}
-        />
+      <div style={{ maxWidth: "1400px", margin: "0 auto" }}>
+        <Stack
+          space={16}
+          align={{
+            mobile: "center",
+            tablet: "center",
+            desktop: "center",
+            wide: "center",
+          }}
+        >
+          <Header
+            onToggleLanguage={handleLanguageChange}
+            initialLanguage={"it"}
+            list={[
+              [t("header.home"), "/"],
+              [t("header.terrariums"), "terrariums"],
+              [t("header.instructions"), "instructions"],
+              [t("header.contacts"), "contacts"],
+              [t("header.dev"), "dev"],
+            ]}
+          />
 
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/blog" element={<Lore />} />
-          <Route path="/terrariums" element={<Terrariums />} />
-          <Route path="/dev" element={<Dev />} />
-          <Route path="/contacts" element={<Contacts />} />
-        </Routes>
-        <Banner>
-          <Title size={"medium"}>{t("bannerWelcome")}</Title>
-        </Banner>
-      </Inline>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/instructions" element={<Instructions />} />
+            <Route path="/terrariums" element={<Terrariums />} />
+            <Route path="/dev" element={<Dev />} />
+            <Route path="/contacts" element={<Contacts />} />
+          </Routes>
+          <Banner>
+            <Title size={"medium"}>{t("bannerWelcome")}</Title>
+          </Banner>
+        </Stack>
+      </div>
     </BrowserRouter>
   );
 }

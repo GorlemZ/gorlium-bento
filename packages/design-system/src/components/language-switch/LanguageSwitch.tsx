@@ -22,6 +22,7 @@ function LanguageSwitch({ onChange, initialLanguage }: LanguageSwitchProps) {
       }}
     >
       <Box padding={24}></Box>
+      {/* Temporarily disable the button to prevent language switching */}
       <Button
         label={initialLanguage}
         kind="solid"

@@ -5,7 +5,8 @@
       "terrariums": "TERRARIUMS",
       "dev": "GitHub",
       "blog": "BLOG",
-      "contacts": "CONTACTS"
+      "contacts": "CONTACTS",
+      "instructions": "HOW-TO"
     },
     "contacts": {
       "formDescription": "Write me a message 💌 and remember to leave your contact info",
@@ -89,6 +90,21 @@
           "Also, feel free to open issues if you have suggestions or if you want to report a bug 🐛"
         ],
         "linkText": "This website GitHub repo"
+      }
+    },
+    "instructions": {
+      "title": "How to take care of your terrarium 🌱",
+      "step1": {
+        "title": "Where to place it",
+        "content": "Put your terrarium in a bright spot, but avoid direct sunlight. Sun rays can overheat the glass and damage the plants. Indirect, diffused light is best."
+      },
+      "step2": {
+        "title": "Checking condensation",
+        "content": "Take a look at the glass every now and then:\n\nCondensation up to half of the glass → perfect conditions ✅\n\nNo condensation → the terrarium is too dry. Spray 2–3 times with a mister and repeat daily until you see the right amount of condensation.\n\nCondensation covering most of the glass → the terrarium is too humid. Leave the lid slightly open for about 10 minutes a day and repeat until humidity is balanced again."
+      },
+      "step3": {
+        "title": "Minimal maintenance",
+        "content": "If you bought a terrarium from me, you won’t need to worry too much: my terrariums are already “stabilized” and require very little care. Just check the condensation once in a while and intervene only if needed."
       }
     }
   }

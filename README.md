@@ -67,3 +67,17 @@ This will locally build and start the app.
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
+
+## Deployment
+
+Deployment is handled automatically by Netlify using the Netlify GitHub App integration.
+
+### How it works
+
+- When you push changes to the `main` branch, Netlify detects the update via the GitHub App (not a webhook).
+- Netlify pulls the latest code, runs the build command, and deploys the result to the live site.
+- No manual configuration of webhooks is required; the integration is managed through the Netlify dashboard.
+
+### Customization
+
+Build settings and environment variables can be configured in the Netlify dashboard or in the `netlify.toml` file.
