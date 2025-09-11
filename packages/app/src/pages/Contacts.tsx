@@ -56,7 +56,7 @@ function Contacts() {
     }
   };
   return (
-    <Stack space={0} dividers={true}>
+    <Stack space={0} dividers={true} align={"center"}>
       <Form
         title={t("contacts.formTitle")}
         description={t("contacts.formDescription")}

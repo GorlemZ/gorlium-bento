@@ -38,7 +38,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div style={{ maxWidth: "1400px", margin: "0 auto" }}>
+      <div style={{ maxWidth: "1400px", margin: "0 auto", overflow: "hidden" }}>
         <Stack
           space={16}
           align={{
@@ -59,14 +59,20 @@ function App() {
               [t("header.dev"), "dev"],
             ]}
           />
-
-          <Routes>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/instructions" element={<Instructions />} />
-            <Route path="/terrariums" element={<Terrariums />} />
-            <Route path="/dev" element={<Dev />} />
-            <Route path="/contacts" element={<Contacts />} />
-          </Routes>
+          <div
+            style={{
+              height: "100%",
+              width: "100%",
+            }}
+          >
+            <Routes>
+              <Route path="/" element={<Homepage />} />
+              <Route path="/instructions" element={<Instructions />} />
+              <Route path="/terrariums" element={<Terrariums />} />
+              <Route path="/dev" element={<Dev />} />
+              <Route path="/contacts" element={<Contacts />} />
+            </Routes>
+          </div>
           <Banner>
             <Title size={"medium"}>{t("bannerWelcome")}</Title>
           </Banner>
